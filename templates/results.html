@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            height: 5ch;
+        }
+
+        .center,
+        form {
+            display: flex;
+            justify-content: center;
+            align-items: left;
+            height: 50vh;
+            font-size: 25px;
+        }
+
+        form {
+            height: 500px;
+            width: 1000px;
+            background-color: rgb(25, 145, 145);
+            padding: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            top: 1px;
+        }
+
+        #text {
+            height: 10px;
+            width: 100px;
+            font-size: 20px;
+        }
+    </style>
+    <div class="head"><b>Online Course Classifier</b></div>
+
+</head>
+
+<body>
+    <div class="center">
+        <div style="height: 100px; width: 500px;">
+            <label for="text"><b>Input Text</b></label><br />
+            {{input_text}} <br /> <br />
+            <label for="text"><b>Categories</b></label><br />
+            {{output_text}} <br /> <br />
+        </div>
+
+    </div>
+</body>
+
+</html>

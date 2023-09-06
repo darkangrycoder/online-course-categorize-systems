@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<head>
+  <style>
+    .head {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 50px;
+      height: 5ch;
+    }
+
+    .center,
+    form {
+      display: flex;
+      justify-content: center;
+      align-items: left;
+      height: 10vh;
+      font-size: 25px;
+    }
+
+    form {
+      height: 500px;
+      width: 1000px;
+      background-color: rgb(25, 145, 145);
+      padding: 10px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      top: 1px;
+    }
+
+    #text {
+      height: 100px;
+      width: 500px;
+      font-size: 20px;
+    }
+
+    textarea {
+      height: 500px;
+      width: 500px;
+      font-size: 20px;
+    }
+
+    input {
+      font-size: 25px;
+      padding: 10px;
+    }
+  </style>
+  <div class="head"><b>Online Course Classifier</b></div>
+
+</head>
+
+<body>
+  <div class="center">
+    <form action="/" method="post">
+      <label for="text"><b>Enter Course Description: </b></label><br />
+      <textarea name="text" id="text"></textarea>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+
+</html>
