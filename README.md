@@ -4,6 +4,12 @@
 https://www.linkedin.com/posts/tirtha-debnath-57b6401a0_there-is-another-ai-ml-based-data-science-activity-7123755159486164992-skyd?utm_source=share&utm_medium=member_desktop
 ```
 
+# Tool Link
+
+```bash
+https://onlinecourseclassifier.onrender.com/
+```
+
 # online-course-categorize-systems
 This ML model is especially designed for Ed-Tech organizations who are confused to categorized their courses according to proper guidance. To solve this major problem, it's here to help you. 
 
